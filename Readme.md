@@ -1,1 +1,3 @@
-Surf & Paddle Project
+# Surf & Paddle Project
+
+## This is my assignment 3 project
