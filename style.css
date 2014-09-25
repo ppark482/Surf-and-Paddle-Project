@@ -11,22 +11,23 @@ body {
 /* Header */
 .header {
   /* margin-bottom: -70px; */
+  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg');
+  height: 523px;
 }
 .mainhead { /* Background Header & Size */
-  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg');
   width: 1300px;
-  height: 345px;
   text-align: center;
 }
 h1 { /* Big Text Title */
   font-family: 'Open Sans', sans-serif;
   font-size: 80px;
   text-decoration: none;
-  margin: 0px;
+  padding: 153px 1px 1px 1px;
+  margin: 1px 1px 1px 1px;
   color: hsla(0, 0%, 100%, 1);
   clear: both;
 }
-.mainhead p { /* Under Big Text */
+.mainhead > p { /* Under Big Text */
   font-family: 'Oswald', sans-serif;
   color: hsla(203, 100%, 16%, 1);
   margin: -1%;
@@ -35,17 +36,22 @@ h1 { /* Big Text Title */
 #bloglink { /* Top Left on Header */
   background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/logo.png');
   background-repeat: no-repeat;
-  padding: 1px 0px 1px 60px;
   padding: 13px 0px 12px 60px;
+  margin: 10px 0px 0px 140px;
   display: block;
   float: left;
+}
+#bloglink > p {
+  margin: -2px 0px 0px -3px;
 }
 #navmenu { /* Top Right on Header */
   display: block;
   float: right;
+  margin: 2px 158px 1px 1px;
 }
 #navmenu li { /* Lines up Nav Horizontally */
   display: inline;
+  padding: 1px 1px 1px 1px;
 }
 #search { /* Search Button */
   padding-left: 20px;
