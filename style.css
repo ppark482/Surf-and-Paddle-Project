@@ -20,18 +20,19 @@ body {
 }
 h1 { /* Big Text Title */
   font-family: 'Open Sans', sans-serif;
-  font-size: 80px;
+  font-size: 98px;
+  font-weight: 100;
   text-decoration: none;
-  padding: 153px 1px 1px 1px;
+  padding: 136px 1px 1px 1px;
   margin: 1px 1px 1px 1px;
   color: hsla(0, 0%, 100%, 1);
   clear: both;
 }
 .mainhead > p { /* Under Big Text */
   font-family: 'Oswald', sans-serif;
+  font-size: 18px;
   color: hsla(203, 100%, 16%, 1);
-  margin: -1%;
-  clear: both;
+  margin: -18px;
 }
 #bloglink { /* Top Left on Header */
   background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/logo.png');
@@ -48,6 +49,7 @@ h1 { /* Big Text Title */
   display: block;
   float: right;
   margin: 2px 158px 1px 1px;
+  font-size: 16px;
 }
 #navmenu li { /* Lines up Nav Horizontally */
   display: inline;
@@ -70,9 +72,9 @@ h1 { /* Big Text Title */
   overflow: auto;
 }
 .maincontent {
-  width: 650px;
+  width: 604px;
   float: left;
-  margin-left: 100px;
+  margin-left: 164px;
 }
 h2 {
   font-family: 'Oswald', sans-serif;
