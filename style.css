@@ -1,0 +1,274 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: hsla(0, 0%, 57%, 1.00);
+}
+.container {
+  width: 1299px;
+  margin: 0 auto;
+  background-color: hsla(0, 0%, 100%, 1.00);
+}
+/* Header */
+.header {
+  margin-bottom: -70px;
+}
+.mainhead { /* Background Header & Size */
+  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg');
+  width: 1300px;
+  height: 345px;
+  text-align: center;
+  padding-top: 180px;
+}
+h1 { /* Big Text Title */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  text-decoration: none;
+  margin: 0px;
+  color: hsla(0, 0%, 100%, 1);
+}
+.mainhead p { /* Under Big Text */
+  font-family: 'Oswald', sans-serif;
+  color: hsla(203, 100%, 16%, 1);
+  margin: -1%;
+}
+#bloglink { /* Top Left on Header */
+  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/logo.png');
+  background-repeat: no-repeat;
+  padding: 1px 0px 1px 60px;
+  position: relative;
+  top: -513px;
+  left: 177px;
+}
+#navmenu { /* Top Right on Header */
+  position: relative;
+  top: -567px;
+  right: -940px;
+}
+#navmenu li { /* Lines up Nav Horizontally */
+  display: inline;
+}
+#search { /* Search Button */
+  padding-left: 20px;
+}
+#searchicon{ /* Search Icon */
+  margin: 5px 5px 5px 5px;
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+/* Body */
+.middle {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.maincontent {
+  width: 650px;
+  float: left;
+  margin-left: 100px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+.authorinfo {
+}
+#miniface {
+  width: 25px;
+  margin: 0px 2px -4px 10px;
+}
+#authorname {
+  color: hsla(207, 63%, 46%, 1.00);
+  margin: 0px 0px 10px 10px;
+}
+
+/* Right Side Bar */
+.rightsidebar {
+  width: 290px;
+  margin-right: 110px;
+  float: right;
+}
+.authoraboutme {
+  text-align: center;
+}
+.authoraboutme ul {
+  padding-left: 0px;
+}
+#authorbigface {
+  width: 80px;
+  margin: 0 auto;
+  list-style: none;
+}
+#annemarie {
+  color: hsla(207, 63%, 46%, 1.00);
+  list-style: none;
+}
+#sociallinks {
+  list-style: none;
+  position: relative;
+  color: hsla(203, 21%, 67%, 1.00);
+  margin: 0px;
+  padding: 0px;
+}
+#sociallinks li {
+  display: inline;
+}
+.ad {
+  text-align: center;
+}
+.ad p {
+  width: 100%;
+  text-align: right;
+  text-decoration: underline;
+}
+.sidebartext {
+  width: 100%;
+  text-align: left;
+}
+
+/* Buttons at the end of article */
+.bottombuttons {
+  width: 500px;
+  margin-left: 110px;
+  padding-right: 0px;
+  background-color: hsla(0, 0%, 100%, 1.00);
+}
+.bottombuttons div {
+  display: inline;
+}
+.readcomments, .readlater, .sharethispost {
+  margin-right: 6px;
+  padding: 5px;
+  background-color: hsla(204, 10%, 40%, 1.00);
+  color: hsla(0, 0%, 100%, 1.00);
+}
+.readcomments {
+  width: 140px;
+  height: 30px;
+}
+.readcomments img {
+  padding: 0px 1px 0px 3px;
+}
+.readcomments span {
+  padding: 5px 10px 5px 11px;
+  margin-right: -8px;
+}
+.readlater {
+  width: 140px;
+  height: 30px;
+}
+.readlater span {
+  padding: 5px 19px 5px 11px;
+  margin-right: -8px;
+}
+.readlater img {
+  padding: 0px 1px 0px 3px;
+}
+.sharethispost {
+  width: 150px;
+  height: 30px;
+}
+.sharethispost span {
+  padding: 5px 10px 5px 12px;
+  margin-right: -8px;
+}
+.sharethispost img {
+  padding: 0px 1px 0px 3px;
+}
+.iconbuttons {
+  width: 24px;
+  height: 18px;
+}
+.icontext {
+  padding: 5px 6px 5px 8px;
+  background-color: hsla(204, 21%, 69%, 1.00);
+  margin-left: 3px;
+}
+
+/* Footer */
+.footer {
+  height: 100%;
+  overflow: auto;
+  margin: 10px 0px 10px 0px;
+  padding: 19px 0px 10px 0px;
+  /* text-align: center; */
+}
+.footer h2 {
+  border-top: 3px solid hsla(200, 18%, 97%, 1.00);
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+.articleimgs {
+  position: relative;
+}
+.articleimgs ul {
+  margin: 0px;
+  padding: 1px;
+  height: 330px;
+}
+.articleimgs li {
+  list-style: none;
+  width: 324px;
+  height: 330px;
+  display: block;
+  float: left;
+}
+.articleimgs span {
+  height: 330px;
+  text-align: left;
+  color: hsla(45, 10%, 92%, 1.00);
+  font-size: 22px;
+}
+#one span {
+  position: relative;
+  top: 290px;
+  left: 20px;
+}
+#two span {
+  position: relative;
+  top: 290px;
+  left: 20px;
+}
+#three span {
+  position: relative;
+  top: 260px;
+  left: 20px;
+}
+#four span {
+  position: relative;
+  top: 290px;
+  left: 20px;
+}
+#one #two #three #four {
+  height: 330px;
+  margin: 0px;
+}
+#one {
+  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-1.jpg');
+}
+#two {
+  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-2.jpg');
+}
+#three {
+  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-3.jpg');
+}
+#four {
+  background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-4.jpg');
+}
+.copywrite {
+  height: 96px;
+  background-color: hsla(204, 100%, 16%, 1.00);
+  color: hsla(204, 21%, 69%, 1.00);
+  padding: 71px 100px;
+}
+.copywrite img {
+  
+}
+.footernav {
+  position: relative;
+  float: right;
+}
+.footernav li {
+  display: inline;
+}
