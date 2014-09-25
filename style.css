@@ -169,60 +169,70 @@ h3 {
 /* Buttons at the end of article */
 .bottombuttons {
   width: 500px;
-  margin-left: 110px;
+  margin-left: 167px;
   padding-right: 0px;
   background-color: hsla(0, 0%, 100%, 1.00);
+  font-size: 13px;
 }
 .bottombuttons div {
   display: inline;
 }
 .readcomments, .readlater, .sharethispost {
-  margin-right: 6px;
   padding: 5px;
   background-color: hsla(204, 10%, 40%, 1.00);
   color: hsla(0, 0%, 100%, 1.00);
 }
 .readcomments {
-  width: 140px;
+  /* width: 140px; */
   height: 30px;
+  margin: 0px 26px 0px 0px;
 }
 .readcomments img {
-  padding: 0px 1px 0px 3px;
+  padding: 1px 4px 0px 3px;
+  margin: 1px 0px -1px 2px;
 }
 .readcomments span {
-  padding: 5px 10px 5px 11px;
-  margin-right: -8px;
+  padding: 5px 15px 5px 11px;
+  margin: 0px -20px 0px 4px;
+  background-color: hsla(204, 21%, 69%, 1.00);
 }
 .readlater {
   width: 140px;
   height: 30px;
+  margin: 0px 9px 0px -4px;
+  padding: 5px 14px 5px 0px;
 }
 .readlater span {
-  padding: 5px 19px 5px 11px;
-  margin-right: -8px;
+  padding: 5px 20px 5px 11px;
+  margin-right: -17px;
 }
 .readlater img {
-  padding: 0px 1px 0px 3px;
+  padding: 0px 1px 0px 2px;
+  margin: 0px 7px -1px 8px;
 }
 .sharethispost {
   width: 150px;
   height: 30px;
+  margin: 0px;
+  padding: 5px 0px 5px 1px;
 }
 .sharethispost span {
-  padding: 5px 10px 5px 12px;
-  margin-right: -8px;
+  padding: 5px 17px 5px 12px;
+  margin: 1px 0px 1px 1px;
 }
 .sharethispost img {
-  padding: 0px 1px 0px 3px;
+  padding: 1px 4px 0px 6px;
+  margin: 2px 3px 0px 4px;
+}
 }
 .iconbuttons {
-  width: 24px;
-  height: 18px;
+  width: 15px;
+  height: 14px;
 }
 .icontext {
-  padding: 5px 6px 5px 8px;
+  /* padding: 5px 6px 5px 8px; */
   background-color: hsla(204, 21%, 69%, 1.00);
-  margin-left: 3px;
+/*   margin-left: 0px; */
 }
 
 /* Footer */
