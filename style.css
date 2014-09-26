@@ -1,4 +1,7 @@
-
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: hsla(197, 78%, 98%, 1.00);
+}
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: hsla(0, 0%, 57%, 1.00);
@@ -193,14 +196,14 @@ h3 {
 .readcomments:hover {
   background-color: hsla(204, 100%, 16%, 1.00);
 }
-.readcomments span:hover {
+.readcomments a:hover {
   background-color: hsla(206, 100%, 36%, 1.00);
 }
 .readcomments img {
   padding: 1px 4px 0px 3px;
   margin: 1px 0px -2px 2px;
 }
-.readcomments span {
+.readcomments a {
   padding: 5px 15px 5px 11px;
   margin: 0px -20px 0px 4px;
   background-color: hsla(204, 21%, 69%, 1.00);
@@ -212,7 +215,7 @@ h3 {
   padding: 5px 14px 5px 0px;
   background-color: hsla(204, 10%, 40%, 1.00);
 }
-.readlater span {
+.readlater a {
   padding: 5px 20px 5px 11px;
   margin-right: -17px;
 }
@@ -223,7 +226,7 @@ h3 {
 .readlater:hover {
   background-color: hsla(204, 100%, 16%, 1.00);
 }
-.readlater span:hover {
+.readlater a:hover {
   background-color: hsla(206, 100%, 36%, 1.00);
 }
 .sharethispost {
@@ -233,7 +236,7 @@ h3 {
   padding: 5px 0px 5px 1px;
   background-color: hsla(204, 10%, 40%, 1.00);
 }
-.sharethispost span {
+.sharethispost a {
   padding: 5px 18px 5px 12px;
   margin: 1px 0px 1px 1px;
 }
@@ -244,7 +247,7 @@ h3 {
 .sharethispost:hover {
   background-color: hsla(204, 100%, 16%, 1.00);
 }
-.sharethispost span:hover {
+.sharethispost a:hover {
   background-color: hsla(206, 100%, 36%, 1.00);
 }
 .iconbuttons {
