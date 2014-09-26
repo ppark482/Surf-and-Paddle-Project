@@ -279,47 +279,80 @@ h3 {
   list-style: none;
   width: 324px;
   height: 330px;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 27px;
+  font-weight: 100;
   display: block;
   float: left;
+  color: hsla(205, 100%, 15%, 1.00); /* dark blue*/
 }
-.articleimgs span {
-  height: 330px;
-  text-align: left;
-  color: hsla(45, 10%, 92%, 1.00);
-  font-size: 22px;
+.articleimgs li:hover {
+  color: hsla(45, 10%, 92%, 1.00); /* white*/
 }
-
 #one span {
   position: relative;
   top: 290px;
   left: 20px;
 }
 #one a {
-  background-color: hsla(206, 100%, 36%, 1.00);
+  background-color: hsla(206, 100%, 36%, 0.80);
   width: 324px;
   height: 330px;
-  opacity: .8;
   display: block;
   position: relative;
   float: left;
 }
 #one a:hover {
-  opacity: 0;
+  background-color: hsla(206, 100%, 36%, 0.0);
 }
 #two span {
   position: relative;
   top: 290px;
   left: 20px;
 }
+#two a {
+  background-color: hsla(206, 100%, 36%, 0.80);
+  width: 324px;
+  height: 330px;
+  display: block;
+  position: relative;
+  float: left;
+}
+#two a:hover {
+  background-color: hsla(206, 100%, 36%, 0.0);
+}
 #three span {
   position: relative;
-  top: 260px;
+  top: 248px;
   left: 20px;
+}
+#three a {
+  background-color: hsla(206, 100%, 36%, 0.80);
+  width: 324px;
+  height: 330px;
+  display: block;
+  position: relative;
+  float: left;
+}
+#three a:hover {
+  background-color: hsla(206, 100%, 36%, 0.0);
 }
 #four span {
   position: relative;
   top: 290px;
   left: 20px;
+}
+#four a {
+  background-color: hsla(206, 100%, 36%, 0.80);
+  width: 324px;
+  height: 330px;
+  display: block;
+  position: relative;
+  float: left;
+}
+#four a:hover {
+  background-color: hsla(206, 100%, 36%, 0.0);
 }
 #one #two #three #four {
   height: 330px;
