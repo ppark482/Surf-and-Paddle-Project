@@ -34,6 +34,9 @@ h1 { /* Big Text Title */
   color: hsla(203, 100%, 16%, 1);
   margin: -18px;
 }
+#bloglink, #navmenu {
+  color: hsla(203, 100%, 16%, 1.00);
+}
 #bloglink { /* Top Left on Header */
   background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/logo.png');
   background-repeat: no-repeat;
@@ -50,6 +53,7 @@ h1 { /* Big Text Title */
   float: right;
   margin: 2px 158px 1px 1px;
   font-size: 16px;
+  font-family: 'Oswald', sans-serif;
 }
 #navmenu li { /* Lines up Nav Horizontally */
   display: inline;
@@ -185,7 +189,7 @@ h3 {
   /* width: 140px; */
   background-color: hsla(204, 10%, 40%, 1.00);
   height: 30px;
-  margin: 0px 26px 0px 0px;
+  margin: 0px 26px 0px -1px;
 }
 .readcomments:hover {
   background-color: hsla(204, 100%, 16%, 1.00);
@@ -226,7 +230,7 @@ h3 {
 .sharethispost {
   width: 150px;
   height: 30px;
-  margin: 0px;
+  margin: 0px 0px 0px 1px;
   padding: 5px 0px 5px 1px;
   background-color: hsla(204, 10%, 40%, 1.00);
 }
@@ -264,7 +268,7 @@ h3 {
   border-top: 3px solid hsla(200, 18%, 97%, 1.00);
   padding: 37px 7px 0px 0px;
   text-align: center;
-  margin: 43px 0px 43px 0px;
+  margin: 43px 0px 43px 1px;
   font-size: 63px;
 }
 .articleimgs {
