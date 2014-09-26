@@ -4,7 +4,7 @@ body {
   background-color: hsla(0, 0%, 57%, 1.00);
 }
 .container {
-  width: 1299px;
+  width: 1300px;
   margin: 0 auto;
   background-color: hsla(0, 0%, 100%, 1.00);
 }
@@ -51,7 +51,7 @@ h1 { /* Big Text Title */
 #navmenu { /* Top Right on Header */
   display: block;
   float: right;
-  margin: 2px 158px 1px 1px;
+  margin: 2px 160px 1px 1px;
   font-size: 16px;
   font-family: 'Oswald', sans-serif;
 }
@@ -60,7 +60,7 @@ h1 { /* Big Text Title */
   padding: 1px 1px 1px 1px;
 }
 #search { /* Search Button */
-  padding-left: 20px;
+  margin-left: 16px;
 }
 #searchicon{ /* Search Icon */
   margin: 5px 5px 5px 5px;
@@ -173,7 +173,7 @@ h3 {
 /* Buttons at the end of article */
 .bottombuttons {
   width: 500px;
-  margin-left: 167px;
+  margin-left: 166px;
   padding-right: 0px;
   font-size: 13px;
 }
@@ -198,7 +198,7 @@ h3 {
 }
 .readcomments img {
   padding: 1px 4px 0px 3px;
-  margin: 1px 0px -1px 2px;
+  margin: 1px 0px -2px 2px;
 }
 .readcomments span {
   padding: 5px 15px 5px 11px;
@@ -218,7 +218,7 @@ h3 {
 }
 .readlater img {
   padding: 0px 1px 0px 2px;
-  margin: 0px 7px -1px 8px;
+  margin: 0px 7px -2px 8px;
 }
 .readlater:hover {
   background-color: hsla(204, 100%, 16%, 1.00);
@@ -239,7 +239,7 @@ h3 {
 }
 .sharethispost img {
   padding: 1px 3px 0px 6px;
-  margin: 2px 3px 0px 4px;
+  margin: 2px 3px -2px 4px;
 }
 .sharethispost:hover {
   background-color: hsla(204, 100%, 16%, 1.00);
@@ -277,6 +277,7 @@ h3 {
   margin: 0px;
   padding: 1px;
   height: 330px;
+  overflow: auto;
 }
 .articleimgs li {
   list-style: none;
@@ -316,7 +317,7 @@ h3 {
 }
 #two a {
   background-color: hsla(206, 100%, 36%, 0.80);
-  width: 324px;
+  width: 325px;
   height: 330px;
   display: block;
   position: relative;
@@ -332,7 +333,7 @@ h3 {
 }
 #three a {
   background-color: hsla(206, 100%, 36%, 0.80);
-  width: 325px;
+  width: 324px;
   height: 330px;
   display: block;
   position: relative;
@@ -348,7 +349,7 @@ h3 {
 }
 #four a {
   background-color: hsla(206, 100%, 36%, 0.80);
-  width: 325px;
+  width: 327px;
   height: 330px;
   display: block;
   position: relative;
