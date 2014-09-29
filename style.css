@@ -23,6 +23,14 @@ body {
   /* Background Header & Size */
   width: 1300px;
   text-align: center; }
+  .mainhead p {
+    /* Under Big Text */
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    color: #003252;
+    margin: -18px; }
+  .mainhead ul {
+    color: #003252; }
 
 h1 {
   /* Big Text Title */
@@ -35,17 +43,7 @@ h1 {
   color: white;
   clear: both; }
 
-.mainhead > p {
-  /* Under Big Text */
-  font-family: "Oswald", sans-serif;
-  font-size: 18px;
-  color: #003252;
-  margin: -18px; }
-
-#bloglink, #navmenu {
-  color: #003252; }
-
-#bloglink {
+.bloglink {
   /* Top Left on Header */
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/logo.png");
   background-repeat: no-repeat;
@@ -53,30 +51,24 @@ h1 {
   margin: 10px 0px 0px 140px;
   display: block;
   float: left; }
+  .bloglink p {
+    margin: -2px 0px 0px -3px; }
 
-#bloglink > p {
-  margin: -2px 0px 0px -3px; }
-
-#navmenu {
+.navmenu {
   /* Top Right on Header */
   display: block;
   float: right;
   margin: 2px 160px 1px 1px;
   font-size: 16px;
   font-family: "Oswald", sans-serif; }
-
-#navmenu li {
-  /* Lines up Nav Horizontally */
-  display: inline;
-  padding: 1px 1px 1px 1px; }
-
-#search {
-  /* Search Button */
-  margin-left: 16px; }
+  .navmenu li {
+    /* Lines up Nav Horizontally */
+    display: inline;
+    padding: 1px 1px 1px 1px; }
 
 #searchicon {
   /* Search Icon */
-  margin: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 16px;
   position: relative;
   top: 3px;
   right: 3px; }

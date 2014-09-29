@@ -1,6 +1,7 @@
 /* Colors */
 $offwhite: hsla(197, 78%, 98%, 1.00);
 $white: hsla(0, 0%, 100%, 1.00);
+$darkblue: hsla(203, 100%, 16%, 1.00);
 
 /* Fixed Sizes */
 $maxwidth: 1300px;
@@ -31,6 +32,16 @@ body {
 .mainhead { /* Background Header & Size */
   width: $maxwidth;
   text-align: center;
+  p {
+    /* Under Big Text */
+      font-family: $font2;
+      font-size: 18px;
+      color: $darkblue;
+      margin: -18px;
+    }
+  ul {
+    color: $darkblue;
+  }
 }
 h1 { /* Big Text Title */
   font-family: $font1;
@@ -42,42 +53,31 @@ h1 { /* Big Text Title */
   color: hsla(0, 0%, 100%, 1);
   clear: both;
 }
-.mainhead > p { /* Under Big Text */
-  font-family: $font2;
-  font-size: 18px;
-  color: hsla(203, 100%, 16%, 1);
-  margin: -18px;
-}
-#bloglink, #navmenu {
-  color: hsla(203, 100%, 16%, 1.00);
-}
-#bloglink { /* Top Left on Header */
+.bloglink { /* Top Left on Header */
   background-image: url('https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/logo.png');
   background-repeat: no-repeat;
   padding: 13px 0px 12px 60px;
   margin: 10px 0px 0px 140px;
   display: block;
   float: left;
+  p {
+    margin: -2px 0px 0px -3px;
+  }
 }
-#bloglink > p {
-  margin: -2px 0px 0px -3px;
-}
-#navmenu { /* Top Right on Header */
+
+.navmenu { /* Top Right on Header */
   display: block;
   float: right;
   margin: 2px 160px 1px 1px;
   font-size: 16px;
   font-family: $font2;
+  li { /* Lines up Nav Horizontally */
+    display: inline;
+    padding: 1px 1px 1px 1px;}
 }
-#navmenu li { /* Lines up Nav Horizontally */
-  display: inline;
-  padding: 1px 1px 1px 1px;
-}
-#search { /* Search Button */
-  margin-left: 16px;
-}
+
 #searchicon{ /* Search Icon */
-  margin: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 16px;
   position: relative;
   top: 3px;
   right: 3px;
