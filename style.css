@@ -285,85 +285,81 @@ h3 {
   color: white;
   /* white*/ }
 
-#one span {
-  position: relative;
-  top: 281px;
-  left: 20px; }
-
-#one a {
-  background-color: rgba(0, 104, 184, 0.8);
-  width: 325px;
+.one {
   height: 330px;
-  display: block;
-  position: relative;
-  float: left; }
-
-#one a:hover {
-  background-color: rgba(0, 104, 184, 0); }
-
-#two span {
-  position: relative;
-  top: 281px;
-  left: 20px; }
-
-#two a {
-  background-color: rgba(0, 104, 184, 0.8);
-  width: 325px;
-  height: 330px;
-  display: block;
-  position: relative;
-  float: left; }
-
-#two a:hover {
-  background-color: rgba(0, 104, 184, 0); }
-
-#three span {
-  position: relative;
-  top: 242px;
-  left: 20px; }
-
-#three a {
-  background-color: rgba(0, 104, 184, 0.8);
-  width: 324px;
-  height: 330px;
-  display: block;
-  position: relative;
-  float: left; }
-
-#three a:hover {
-  background-color: rgba(0, 104, 184, 0); }
-
-#four span {
-  position: relative;
-  top: 281px;
-  left: 20px; }
-
-#four a {
-  background-color: rgba(0, 104, 184, 0.8);
-  width: 327px;
-  height: 330px;
-  display: block;
-  position: relative;
-  float: left; }
-
-#four a:hover {
-  background-color: rgba(0, 104, 184, 0); }
-
-#one #two #three #four {
-  height: 330px;
-  margin: 0px; }
-
-#one {
+  margin: 0px;
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-1.jpg"); }
+  .one span {
+    position: relative;
+    top: 281px;
+    left: 20px; }
+  .one a {
+    background-color: rgba(0, 104, 184, 0.8);
+    width: 325px;
+    height: 330px;
+    display: block;
+    position: relative;
+    float: left; }
 
-#two {
+.one a:hover {
+  background-color: rgba(0, 104, 184, 0); }
+
+.two {
+  height: 330px;
+  margin: 0px;
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-2.jpg"); }
+  .two span {
+    position: relative;
+    top: 281px;
+    left: 20px; }
+  .two a {
+    background-color: rgba(0, 104, 184, 0.8);
+    width: 325px;
+    height: 330px;
+    display: block;
+    position: relative;
+    float: left; }
 
-#three {
+.two a:hover {
+  background-color: rgba(0, 104, 184, 0); }
+
+.three {
+  height: 330px;
+  margin: 0px;
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-3.jpg"); }
+  .three span {
+    position: relative;
+    top: 242px;
+    left: 20px; }
+  .three a {
+    background-color: rgba(0, 104, 184, 0.8);
+    width: 324px;
+    height: 330px;
+    display: block;
+    position: relative;
+    float: left; }
 
-#four {
+.three a:hover {
+  background-color: rgba(0, 104, 184, 0); }
+
+.four {
+  height: 330px;
+  margin: 0px;
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/article-image-4.jpg"); }
+  .four span {
+    position: relative;
+    top: 281px;
+    left: 20px; }
+  .four a {
+    background-color: rgba(0, 104, 184, 0.8);
+    width: 327px;
+    height: 330px;
+    display: block;
+    position: relative;
+    float: left; }
+
+.four a:hover {
+  background-color: rgba(0, 104, 184, 0); }
 
 .copywrite {
   height: 76px;
