@@ -339,10 +339,10 @@ h3 {
     display: block;
     position: relative;
     float: left;
+    &:hover {
+      background-color: $footerimghover;
+    }
   }
-}
-.one a:hover {
-  background-color: $footerimghover;
 }
 .two {
   @include imgproperties ();
@@ -359,10 +359,10 @@ h3 {
     display: block;
     position: relative;
     float: left;
+    &:hover {
+      background-color: $footerimghover;
+    }
   }
-}
-.two a:hover {
-  background-color: $footerimghover;
 }
 .three {
   @include imgproperties ();
@@ -379,10 +379,10 @@ h3 {
     display: block;
     position: relative;
     float: left;
+    &:hover {
+      background-color: $footerimghover;
+    }
   }
-}
-.three a:hover {
-  background-color: $footerimghover;
 }
 .four {
   @include imgproperties ();
@@ -399,15 +399,15 @@ h3 {
     display: block;
     position: relative;
     float: left;
+    &:hover {
+      background-color: $footerimghover;
+    }
   }
-}
-.four a:hover {
-  background-color: $footerimghover;
 }
 .copywrite {
   height: 76px;
-  background-color: hsla(204, 100%, 16%, 1.00);
-  color: hsla(204, 21%, 69%, 1.00);
+  background-color: $darkblue;
+  color: $linkgrey;
   padding: 25px 100px 0px 165px;
   margin: 0px 0px 0px 0px;
   img {
