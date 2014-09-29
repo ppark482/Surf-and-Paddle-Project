@@ -13,6 +13,8 @@ $footerimghover: hsla(206, 100%, 36%, 0.00);
 
 /* ===== Fixed Sizes ===== */
 $maxwidth: 1300px;
+$postimg: 325px;
+$postimght: 330px;
 
 /* ===== Fonts ===== */
 $font1: 'Open Sans', sans-serif;
@@ -306,7 +308,7 @@ h3 {
   }
   li {
     list-style: none;
-    height: 330px;
+    height: $postimght;
     width: 324.5px;
     text-align: left;
     font-family: $font2;
@@ -321,8 +323,13 @@ h3 {
   color: $white; /* white*/
 }
 @mixin imgproperties () {
-    height: 330px;
+    height: $postimght;
     margin: 0px;
+}
+@mixin floatleft () {
+  display: block;
+  position: relative;
+  float: left;
 }
 .one {
   @include imgproperties ();
@@ -334,11 +341,9 @@ h3 {
   }
   a {
     background-color: $footerimg;
-    width: 325px;
-    height: 330px;
-    display: block;
-    position: relative;
-    float: left;
+    width: $postimg;
+    height: $postimght;
+    @include floatleft ();
     &:hover {
       background-color: $footerimghover;
     }
@@ -354,11 +359,9 @@ h3 {
   }
   a {
     background-color: $footerimg;
-    width: 325px;
-    height: 330px;
-    display: block;
-    position: relative;
-    float: left;
+    width: $postimg;
+    height: $postimght;
+    @include floatleft ();
     &:hover {
       background-color: $footerimghover;
     }
@@ -374,11 +377,9 @@ h3 {
   }
   a {
     background-color: $footerimg;
-    width: 324px;
-    height: 330px;
-    display: block;
-    position: relative;
-    float: left;
+    width: $postimg;
+    height: $postimght;
+    @include floatleft ();
     &:hover {
       background-color: $footerimghover;
     }
@@ -394,11 +395,9 @@ h3 {
   }
   a {
     background-color: $footerimg;
-    width: 327px;
-    height: 330px;
-    display: block;
-    position: relative;
-    float: left;
+    width: $postimg;
+    height: $postimght;
+    @include floatleft ();
     &:hover {
       background-color: $footerimghover;
     }
