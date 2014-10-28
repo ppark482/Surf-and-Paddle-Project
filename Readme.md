@@ -1,5 +1,4 @@
-# Surf & Paddle Project
+## Surf & Paddle Project
 
-
-* This is my assignment 3 project
-* Fun Fun Fun
+* Recreation of static webpage to pixel perfect standards.
+* Utilized HTML & SASS
